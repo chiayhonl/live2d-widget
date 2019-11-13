@@ -201,7 +201,7 @@ function loadWidget(waifuPath, apiPath) {
 			dataType: "json",
 			success: function(result) {
 				if (result.textures["id"] == 1 && (modelTexturesId == 1 || modelTexturesId == 0)) showMessage("我还没有其他衣服呢！", 4000, 10);
-				else showMessage("嘻嘻我的新衣服好看嘛？", 4000, 10);
+				else showMessage("嘻嘻我的新衣服好看嘛？(❀ฺ´∀`❀ฺ)ﾉ", 4000, 10);
 				loadModel(modelId, result.textures["id"]);
 			}
 		});
